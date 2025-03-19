@@ -140,10 +140,10 @@ void encryptByPlayfairCipher(char str[], char key[]) {
 int main() {
     char str[SIZE], key[SIZE];
     
-    strcpy(key, "Monarchy");
+    strcpy(key, "STUDENT");
     printf("Key text: %s\n", key);
     
-    strcpy(str, "instruments");
+    strcpy(str, "PRITHIVIRAJAN V");
     printf("Plain text: %s\n", str);
 
     encryptByPlayfairCipher(str, key);
